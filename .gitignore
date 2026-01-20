@@ -1,0 +1,86 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# =========================
+# Virtual environments
+# =========================
+.venv/
+venv/
+env/
+ENV/
+
+# =========================
+# Jupyter / IPython
+# =========================
+.ipynb_checkpoints/
+.profile_default/
+.ipython/
+
+# =========================
+# Gradio / Web UI
+# =========================
+gradio_cached_examples/
+*.log
+
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# Environment variables / secrets
+# =========================
+.env
+.env.*
+*.env
+
+# =========================
+# Vector DB / embeddings (local artifacts)
+# Adjust names if you want to commit them
+# =========================
+chroma/
+chromadb/
+faiss_index/
+vectorstore/
+embeddings/
+*.db
+*.sqlite
+*.sqlite3
+
+# =========================
+# Model caches
+# =========================
+.cache/
+huggingface/
+hf_cache/
+torch_cache/
+
+# =========================
+# Temporary / runtime files
+# =========================
+tmp/
+temp/
+*.tmp
+
+# =========================
+# Test artifacts
+# =========================
+coverage/
+.coverage
+htmlcov/
+.pytest_cache/
