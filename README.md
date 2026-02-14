@@ -41,6 +41,7 @@ All responses are grounded in the retrieved engine source code and include verif
 - ChromaDB
 - HuggingFace embeddings (`bge-base-en-v1.5`)
 - Ollama (locally inferencing `llama3.1:8b`)
+- Unreal Engine 5.7
 
 ---
 
@@ -99,6 +100,3 @@ These are planned for future versions.
 - The model cannot invent explanations
 - The model cannot generalize beyond cited code
 - Answers can be verified directly in an IDE
-
----
-- Unreal Engine 5.7
