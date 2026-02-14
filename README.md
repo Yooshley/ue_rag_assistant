@@ -34,6 +34,16 @@ All responses are grounded in the retrieved engine source code and include verif
 
 ---
 
+## Technologies Used
+
+- Python
+- LangChain
+- ChromaDB
+- HuggingFace embeddings (`bge-base-en-v1.5`)
+- Ollama (locally inferencing `llama3.1:8b`)
+
+---
+
 ## What the System Does **CURRENTLY**
 
 ### Engine-aware ingestion
@@ -90,15 +100,5 @@ These are planned for future versions.
 - The model cannot generalize beyond cited code
 - Answers can be verified directly in an IDE
 
-LLM acts as an **explainer**, not an authority.
-
 ---
-
-## Technologies Used
-
-- Python
-- LangChain
-- ChromaDB
-- HuggingFace embeddings (`bge-base-en-v1.5`)
-- Ollama (locally inferencing `llama3.1:8b`)
 - Unreal Engine 5.7
